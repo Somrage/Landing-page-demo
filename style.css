@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0px;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+
+/*Padding rule for all flex divs in page*/
+.navigation,
+.title {
+    padding: 0 20vh;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20vh;
+    margin-bottom: 10vh;
+}
+
+ul.nav-links {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+p {
+    font-size: 18px;
+}
+
+.title {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 10vh;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.right-title {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 8vh;
+    font-weight: 1000;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+img {
+    box-shadow: 5px 7px 10px 2px rgb(0 0 0 / 18%);
+    max-width: 600px;
+}
+
+button.sign-up {
+    background-color: #3882f6;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 1px solid #1c50a3;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.sign-up:hover {
+    background-color: #295eb3;
+}
+
+.sign-up:active {
+    background-color: #3882f6;
+}
