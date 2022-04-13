@@ -16,7 +16,8 @@ body {
 /*Padding rule for all flex divs in page*/
 .navigation,
 .title,
-.info {
+.info,
+.quote-section  {
     padding: 0 20vh;
 }
 
@@ -97,7 +98,7 @@ button.sign-up {
 h2 {
     font-size: 7vh;
     text-align: center;
-    margin-top: 5vh;
+    margin-top: 10vh;
 }
 
 .info {
@@ -107,7 +108,7 @@ h2 {
     align-content: center;
     justify-content: center;
     gap: 5vh;
-    margin-bottom: 5vh;
+    margin-bottom: 10vh;
 }
 
 .box {
@@ -125,5 +126,33 @@ img.info-img {
 /*Quote-section starts here*/
 
 .quote-section {
+    display: flex;
+    flex-flow: column;
     background-color: #E5E7EB;
+    justify-content: center;
+    padding: 5vh 40vh;
+}
+
+.quote {
+    color: #414141;
+    font-style: italic;
+    font-size: 5vh;
+}
+
+p.author {
+    text-align: end;
+    font-size: 3vh;
+    font-weight: 600;
+    color: #414141;
+}
+
+/*Footer section*/
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
