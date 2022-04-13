@@ -66,30 +66,35 @@ h1 {
     color: white;
 }
 
+p.text-under {
+    font-size: 3vh;
+}
+
 img {
     box-shadow: 5px 7px 10px 2px rgb(0 0 0 / 18%);
-    max-width: 600px;
+    max-width: 75vh;
+    border-radius: 5px;
 }
 
 button.sign-up {
-    background-color: #3882f6;
+    background-color: #ffec0d;
     text-align: center;
-    color: white;
+    color: #3c3c3c;
     font-weight: 700;
     border-radius: 10px;
-    border: 1px solid #1c50a3;
-    width: 100px;
-    height: 30px;
+    border: 1px solid #3c3c3c;
+    width: 15vh;
+    height: 5vh;
     cursor: pointer;
     box-shadow: 5px 7px 10px 2px rgb(0 0 0 / 18%);
 }
 
 .sign-up:hover {
-    background-color: #295eb3;
+    background-color: #dfcd09;
 }
 
 .sign-up:active {
-    background-color: #3882f6;
+    background-color: #ffec0d;
     box-shadow: none;
 }
 
@@ -99,6 +104,10 @@ h2 {
     font-size: 7vh;
     text-align: center;
     margin-top: 10vh;
+}
+
+.beer {
+    font-weight: 700;
 }
 
 .info {
@@ -117,6 +126,7 @@ h2 {
     align-items: center;
     color: #414141;
     font-size: 2vh;
+    max-width: 50vh;
 }
 
 img.info-img {
@@ -146,6 +156,55 @@ p.author {
     color: #414141;
 }
 
+/*Action section*/
+
+.action {
+    display: flex;
+    justify-content: center;
+}
+
+.action-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vh;
+    padding: 3vh 7vh;
+    background-color:#ffec0d;
+    width: 200vh;
+    border-radius: 10px;
+    margin: 10vh 40vh;
+    color: #3c3c3c;
+    font-size: 2.5vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4,
+.its-time {
+    margin: 0;
+}
+
+button.action-button {
+    background-color:#ffec0d;
+    text-align: center;
+    color: #3c3c3c;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 15vh;
+    height: 5vh;
+    cursor: pointer;
+}
+
+.action-button:hover {
+    background-color: #dfcd09;
+}
+
+.action-button:active {
+    background-color:#ffec0d;
+    box-shadow: none;
+}
+
 /*Footer section*/
 
 .footer {
@@ -155,4 +214,5 @@ p.author {
     text-align: center;
     align-items: center;
     justify-content: center;
+    font-size: 1.5vh;
 }
