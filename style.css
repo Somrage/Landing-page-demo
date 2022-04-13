@@ -15,7 +15,8 @@ body {
 
 /*Padding rule for all flex divs in page*/
 .navigation,
-.title {
+.title,
+.info {
     padding: 0 20vh;
 }
 
@@ -79,6 +80,7 @@ button.sign-up {
     width: 100px;
     height: 30px;
     cursor: pointer;
+    box-shadow: 5px 7px 10px 2px rgb(0 0 0 / 18%);
 }
 
 .sign-up:hover {
@@ -87,4 +89,41 @@ button.sign-up {
 
 .sign-up:active {
     background-color: #3882f6;
+    box-shadow: none;
+}
+
+/*Main info starts here*/
+
+h2 {
+    font-size: 7vh;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.info {
+    display: flex;
+    margin: auto;
+    flex-flow: row;
+    align-content: center;
+    justify-content: center;
+    gap: 5vh;
+    margin-bottom: 5vh;
+}
+
+.box {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: #414141;
+    font-size: 2vh;
+}
+
+img.info-img {
+    max-width: 20vh;
+}
+
+/*Quote-section starts here*/
+
+.quote-section {
+    background-color: #E5E7EB;
 }
